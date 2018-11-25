@@ -1,4 +1,4 @@
-// Sample string interpolation story (AKA an escape sequence)
+// Sample string interpolation story (also an escape sequence)
 
 let charName = "Sammy"
 let numDollars = 20

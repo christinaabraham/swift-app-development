@@ -28,9 +28,7 @@ print(" ")
 print(" ")
 
 
-/*: 
-  - callout(Exercise): Write a function for an alternate second verse of the song using the laughing submarine function below.
-*/
+// Write a function for an alternate second verse of the song using the laughing submarine function below.
 
 func verseOne() {
     rowTheBoat()

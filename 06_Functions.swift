@@ -42,6 +42,8 @@ func laughingSubmarine() {
     print("I’m a submarine")
 }
 
+breatheBetweenVerses()
+
 func verseTwo() {
     rowTheBoat()
     laughingSubmarine()

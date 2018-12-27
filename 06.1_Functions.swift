@@ -1,5 +1,5 @@
-/* Write out the song or meme using print statements, then look for patterns and repetition and choose groups of lines to combine into functions.
- This is a free-form exercise, so you can do whatever you like.
+/* Write out the song or meme using print statements, then look for patterns and repetition
+   and choose groups of lines to combine into functions.
  */
 
 // Song: Electro Light Orchestra - "Mr. Blue Sky"
@@ -37,6 +37,7 @@ func verseThree() {
     print("Welcome to the human race")
     print("A celebration, mister blue sky's up there waitin'")
     print("And today is the day we've waited for")
+}
 
 func verseFour() {
     print("Mister blue sky, mister blue sky")
@@ -51,12 +52,13 @@ func verseFive() {
     print("I'll remember you this way")
 }
 
-    func verseSix() {
-        print("Mister blue sky")
-    }
+func verseSix() {
+    print("Mister blue sky")
+}
+
 func betweenVerses() {
     print("")
-    print("   ~   \n”)
+    print("         ~         \n")
 }
 
 verseOne()

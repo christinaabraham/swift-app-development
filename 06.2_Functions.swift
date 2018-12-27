@@ -2,7 +2,7 @@
  This is a free-form exercise, so you can do whatever you like.
  */
 
-// Song: Electro Light Orchestra - "Mr. Blue Sky"
+// Original song: Electro Light Orchestra - "Mr. Blue Sky"
 
 func mainChorus() {
     print("ELO please tell me why")

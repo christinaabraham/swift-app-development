@@ -1,6 +1,8 @@
-// Inside one of the functions, make changes that make the whole text mean something different, or make it funnier.
+/* Write out the song or meme using print statements, then look for patterns and repetition and choose groups of lines to combine into functions.
+ This is a free-form exercise, so you can do whatever you like.
+ */
 
-// Original Song: Electro Light Orchestra - "Mr. Blue Sky"
+// Song: Electro Light Orchestra - "Mr. Blue Sky"
 
 func mainChorus() {
     print("ELO please tell me why")
@@ -35,60 +37,61 @@ func verseThree() {
     print("Welcome to the human race")
     print("A celebration, mister blue sky's up there waitin'")
     print("And today is the day we've waited for")
+}
+
+func verseFour() {
+    print("Mister blue sky, mister blue sky")
+    print("Mister blue sky")
+}
+
+func verseFive() {
+    print("Mister blue, you did it right")
+    print("But soon comes mister night creepin' over")
+    print("Now his hand is on your shoulder")
+    print("Never mind I'll remember you this")
+    print("I'll remember you this way")
+}
+
+func verseSix() {
+    print("Mister blue sky")
+}
+
+func betweenVerses() {
+    print("")
+    print("         ~         \n")
+}
+
+verseOne()
+betweenVerses()
     
-    func verseFour() {
-        print("Mister blue sky, mister blue sky")
-        print("Mister blue sky")
-    }
+verseTwo()
+betweenVerses()
     
-    func verseFive() {
-        print("Mister blue, you did it right")
-        print("But soon comes mister night creepin' over")
-        print("Now his hand is on your shoulder")
-        print("Never mind I'll remember you this")
-        print("I'll remember you this way")
-    }
+mainChorus()
+betweenVerses()
     
-    func verseSix() {
-        print("Mister blue sky")
-    }
-    func betweenVerses() {
-        print("")
-        print("   ~   ")
-        print("")
-    }
+mainChorus()
+betweenVerses()
     
-    verseOne()
-    betweenVerses()
-    
-    verseTwo()
-    betweenVerses()
-    
-    mainChorus()
-    betweenVerses()
-    
-    mainChorus()
-    betweenVerses()
-    
-    verseThree()
-    betweenVerses()
-    
-    mainChorus()
-    betweenVerses()
-    
-    secondChorus()
-    betweenVerses()
-    
-    secondChorus()
-    betweenVerses()
-    
-    verseFour()
-    betweenVerses()
-    
-    mainChorus()
-    betweenVerses()
-    
-    secondChorus()
-    betweenVerses()
-    
-    verseFive()
+verseThree()
+betweenVerses()
+
+mainChorus()
+betweenVerses()
+
+secondChorus()
+betweenVerses()
+
+secondChorus()
+betweenVerses()
+
+verseFour()
+betweenVerses()
+
+mainChorus()
+betweenVerses()
+
+secondChorus()
+betweenVerses()
+
+verseFive()

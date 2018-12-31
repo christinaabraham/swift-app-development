@@ -1,4 +1,4 @@
-/* Excercise: Write a function that returns a sentence like “Row, row, row your boat” 
+/* Exercise: Write a function that returns a sentence like “Row, row, row your boat” 
    when given a verb and a noun argument.
  */
  func openingLine(verb: String, noun: String) -> String {
@@ -11,7 +11,7 @@
   
   print("\n")
   
-  // Excercise: Using Return Values
+  // Exercise: Using Return Values
 func impossibleBeliefsCount(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) -> Int {
     let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
     return total
@@ -28,7 +28,7 @@ func impossibleThingsPhrase(numberOfImpossibleThings: Int, meal: String) -> Stri
      print("\n")
 
 
-// Excercise: Argument Label
+// Exercise: Argument Label
 func score(withReds: Int, greens: Int, golds: Int) -> Int {
     let pointsPerRed = 5
     let pointsPerGreen = 10
@@ -46,7 +46,7 @@ func score(withReds: Int, greens: Int, golds: Int) -> Int {
     print("\n")
     
 
-// Excercise: No Argument Label
+// Exercise: No Argument Label
 func holler(_ phrase: String) -> String {
     return "⚡️\(phrase)!!⚡️"
 }

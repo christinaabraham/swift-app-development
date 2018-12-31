@@ -18,7 +18,7 @@ print("Some Date", someDate)
 print("\n")
 
 
-// Excercise: Circles
+// Exercise: Circles
 let pi = 3.14159265359
 let diameter: Double = 2
 let circumference = pi * diameter

@@ -33,4 +33,4 @@
  
  
  // Tests
-(validatePassword("12345abc")
+(validatePassword("12345abc"))

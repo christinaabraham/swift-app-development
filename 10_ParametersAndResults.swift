@@ -13,7 +13,7 @@ func hello(name: String) {
     print("\n")
 
 
-// Excercise: Favorite Food
+// Exercise: Favorite Food
 func printFavoriteFood(food: String) {
     let favoriteFood = food
     print("My favorite food is \(favoriteFood).")
@@ -38,7 +38,7 @@ func hello(firstName: String, lastName: String) {
     print("\n")
 
 
-// Excercise: Other Favorite Things
+// Exercise: Other Favorite Things
 func printFavorite(categoryOfThing: String, favorite: String) {
     print("My favorite \(categoryOfThing) is \(favorite).")
 }
@@ -50,7 +50,7 @@ func printFavorite(categoryOfThing: String, favorite: String) {
     print("\n")
      
      
-// Excercise: Getting Values Back
+// Exercise: Getting Values Back
 func spaceAvailableMessage(name: String, eachVideoDuration: Int, numberOfVideos: Int) -> String {
     let currentSpace = 10000
     let megabytesPerVideoSecond = 3
@@ -66,7 +66,7 @@ func spaceAvailableMessage(name: String, eachVideoDuration: Int, numberOfVideos:
     print("\n")
     
 
-// Excercise: Giving Values Back
+// Exercise: Giving Values Back
 func makeFavorite(categoryOfThing: String, favorite: String) -> String {
     return "My favorite \(categoryOfThing) is \(favorite)."
 }
@@ -78,7 +78,7 @@ func makeFavorite(categoryOfThing: String, favorite: String) -> String {
     print("\n")
     
     
-// Excercise: Building Blocks
+// Exercise: Building Blocks
 func listByAdding(item: String, toList: String) -> String {
     return toList + "\n" + item
 }

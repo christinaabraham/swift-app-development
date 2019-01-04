@@ -1,7 +1,0 @@
-// Exercise: Identity
-
-/* Create a variable for myPlans, initialized to a string describing your evening plans.
-Create a second variable for friendPlans, but initialize it to myPlans. (Your friend takes less initiative than you at planning.)
-Below the declaration of friendPlans, update myPlans by using the addition operator + to add one more activity.
-Check the values of myPlans and friendPlans. Are they the same or different?
-*/

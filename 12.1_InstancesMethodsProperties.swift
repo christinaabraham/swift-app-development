@@ -1,4 +1,4 @@
-// Exercise: The Return of BoogieBot
+// Exercise: The Return of BoogieBot **INCOMPLETE**
 let leftBot = BoogieBot()
 leftBot.botName = "Lefty"
 

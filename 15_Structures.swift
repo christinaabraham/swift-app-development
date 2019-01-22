@@ -84,8 +84,26 @@ func isRectangle(_ rectangle: Rectangle, biggerThan rectangle2: Rectangle) -> Bo
 let rectangle = Rectangle(width: 10, height: 10)
 let anotherRectangle = Rectangle(width: 10, height: 30)
 
-isRectangle(rectangle, biggerThan: anotherRectangle)
+// isRectangle(rectangle, biggerThan: anotherRectangle)
 
 
 // Instance Methods
+// Simplify the biggerThan method by creating a calculated property named area for the rectangle struct 
+// and then using the calculated property inside the isBiggerThan() method.
+struct Rectangle {
+    let width: Int
+    let height: Int
+    
+    func isBiggerThan(_ rectangle: Rectangle) -> Bool {
+        let areaOne = width * height
+        let areaTwo = rectangle.width * rectangle.height
+        return areaOne > areaTwo
+    }
+}
+
+let rectangle = Rectangle(width: 10, height: 10)
+let otherRectangle = Rectangle(width: 10, height: 20)
+
+rectangle.isBiggerThan(otherRectangle)
+otherRectangle.isBiggerThan(rectangle)
 

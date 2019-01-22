@@ -38,6 +38,11 @@ song.rating
 
 
 // Calculated Properties
+
+// Exercise: Add another calculated property to Song named formattedTitle,
+// which gives you a String. For the song above, the formatted title would be
+// “No, no, no by Fizz”.
+
 struct Song {
     let title: String
     let artist: String
@@ -51,16 +56,13 @@ struct Song {
     }
     
     var formattedTitle: String {
-        return "\(title) + "by" + \(artist)"
+        return "\(title) by \(artist)"
     }
 }
+
 let song = Song(title: "No, no, no", artist: "Fizz", duration: 150)
-song.formattedDuration
-
-
-// Exercise: Add another calculated property to Song named formattedTitle,
-// which gives you a String. For the song above, the formatted title would be
-// “No, no, no by Fizz”.
+// song.formattedDuration
+// song.formattedTitle
 
 
 // Functions

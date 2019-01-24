@@ -93,11 +93,13 @@ let anotherRectangle = Rectangle(width: 10, height: 30)
 struct Rectangle {
     let width: Int
     let height: Int
-    
+    var area: Int {
+        let calcArea = width * height
+        return calcArea
+    }
     func isBiggerThan(_ rectangle: Rectangle) -> Bool {
-        let areaOne = width * height
-        let areaTwo = rectangle.width * rectangle.height
-        return areaOne > areaTwo
+        let areaTwo = rectangle.area
+        return area
     }
 }
 

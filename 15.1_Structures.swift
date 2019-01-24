@@ -35,6 +35,9 @@ struct TrainingShoe {
 
     func warnAboutLaces() {
         // If laces are untied, print a reminder to tie them
+        if(isTried == false) {
+            print("Don't forget to tie your laces!")
+        }
     }
 }
 

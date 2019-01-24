@@ -108,4 +108,3 @@ let otherRectangle = Rectangle(width: 10, height: 20)
 
 rectangle.isBiggerThan(otherRectangle)
 otherRectangle.isBiggerThan(rectangle)
-

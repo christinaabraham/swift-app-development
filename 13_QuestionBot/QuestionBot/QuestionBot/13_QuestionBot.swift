@@ -75,3 +75,27 @@ print("abcd".characters.count % 2)    // --> 0
 // You can convert any string into 0 or 1, then use the result to decide on an answer:
 // Exercise: Amend the function below to choose from one of three default answers instead of two.
 // Hint: question.characters.count % 3 will give you a result of 0, 1 or 2
+func responseTo(question: String) -> String {
+    
+    let lowerQuestion = question.lowercased()
+    
+    if lowerQuestion == "where are the cookies?" {
+        return "In the cookie jar!"
+    } else if lowerQuestion.hasPrefix("where") {
+        return "To the North!"
+    } else {
+        
+        let defaultNumber = question.characters.count % 3
+        
+        if defaultNumber == 2 {
+            return "That really depends"
+        } else if defaultNumber == 1 {
+            return "Ask me again tomorrow"
+        } else {
+            return "I'm not too sure about that."
+        }
+    }
+}
+responseTo(question: "Where are the cookies?")
+responseTo(question: "Can I have a cookie?")        // --> Response 1
+responseTo(question: "PLEASE can I have a cookie?")         // Response 3

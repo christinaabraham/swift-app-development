@@ -30,4 +30,4 @@ print(responseTo(question: "Where are the cookies?"))
 // Test questions:
 print(responseTo(question: "Can I have a cookie?"))
 print(responseTo(question: "CAN I HAVE A COOKIE?!?"))
-print)responseTo(question: "Should I go?"))
+print(responseTo(question: "Should I go?"))

@@ -4,6 +4,15 @@
 func responseTo(question: String) -> String {
     let questionL = question.lowercased()
     
+    if questionL.hasPrefix("hello") {
+        return "Why hello there!"
+    } else if questionL == "where are the cookies?" {
+        return "In the cookie jar!"
+    } else if questionL.hasPrefix("where") {
+        return "To the North!"
+    } else if questionL.hasPrefix("can") {
+        return "Of course you can!"
+    }
     return "?"
 }
 

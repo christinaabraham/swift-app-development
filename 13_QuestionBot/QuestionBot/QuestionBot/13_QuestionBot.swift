@@ -98,4 +98,4 @@ func responseTo(question: String) -> String {
 }
 responseTo(question: "Where are the cookies?")
 responseTo(question: "Can I have a cookie?")        // --> Response 1
-responseTo(question: "PLEASE can I have a cookie?")         // Response 3
+responseTo(question: "PLEASE can I have a cookie?")         // --> Response 3
